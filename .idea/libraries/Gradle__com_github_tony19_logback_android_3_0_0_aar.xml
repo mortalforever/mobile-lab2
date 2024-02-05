@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.tony19:logback-android:3.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b654beec439abeedffd6581e534a2671/transformed/jetified-logback-android-3.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b654beec439abeedffd6581e534a2671/transformed/jetified-logback-android-3.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android/3.0.0/2ad14aed781c4a73ed4dbb421966d408a0a06686/logback-android-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android/3.0.0/6235ba582e9c81863c300820843c905b4c30149b/logback-android-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

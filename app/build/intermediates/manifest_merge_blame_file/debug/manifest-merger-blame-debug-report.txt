@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mobile_computing"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:7:5-27:19
+14        android:name="com.mobile_computing.MobileComputingApplication"
+14-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:12:9-51
+15        android:allowBackup="true"
+15-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.5.0] C:\Users\wangg\.gradle\caches\transforms-3\8e2162241fe8355a54911c5c94010015\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:10:9-41
+20        android:supportsRtl="true"
+20-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:13:9-40
+23        android:usesCleartextTraffic="true" >
+23-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:14:9-44
+24        <activity
+24-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:15:9-17:39
+25            android:name="com.mobile_computing.ResultDisplayActivity"
+25-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:16:13-50
+26            android:exported="true" />
+26-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:17:13-36
+27        <activity
+27-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:18:9-26:20
+28            android:name="com.mobile_computing.API_Search"
+28-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:20:13-39
+29            android:exported="true"
+29-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:19:13-36
+30            android:label="@string/app_name" >
+30-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:21:13-45
+31            <intent-filter>
+31-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:22:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:24:17-77
+34-->C:\Code\mobile\mb-lab2-master\app\src\main\AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\wangg\.gradle\caches\transforms-3\11b892c7bdc7b378620d2f1686493ca1\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+39            android:name="com.squareup.picasso.PicassoProvider"
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\wangg\.gradle\caches\transforms-3\11b892c7bdc7b378620d2f1686493ca1\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+40            android:authorities="com.mobile_computing.com.squareup.picasso"
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\wangg\.gradle\caches\transforms-3\11b892c7bdc7b378620d2f1686493ca1\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+41            android:exported="false" />
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\wangg\.gradle\caches\transforms-3\11b892c7bdc7b378620d2f1686493ca1\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+42    </application>
+43
+44</manifest>
